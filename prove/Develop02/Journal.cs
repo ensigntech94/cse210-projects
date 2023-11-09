@@ -1,23 +1,30 @@
-namespace Develop02
-{
-    using System;
-    using System.Collections.Generic;
+using System;
+using System.Collections.Generic;
 
-    public class Journal
-    {
-       public string _name = "";
+public class Journal{
 
-       public List<Entry> _entries = new List<Entry>();
+    
+    public string _name = "";
+   
+    public List<Entry> _entries = new List<Entry>();
+    
+    
+    public void Display(){
 
-       public void Display(){
-
+        
         Console.WriteLine($"Name: "+char.ToUpper(_name[0]) + _name.Substring(1));
 
+        
         Console.WriteLine($"Entries:");
 
-        foreach (Entry elementEntry in _entries)
         
-        elementEntry.Display();
+        
+        foreach (Entry elementEntry in _entries)
+        {
+         
+         elementEntry.Display();
+         
         }
     }
-}
+
+    }

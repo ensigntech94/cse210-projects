@@ -1,3 +1,5 @@
+//Unit 02 Develop: Journal Program
+
 using System;
 using System.Collections.Generic;
 using System.IO; 
@@ -5,8 +7,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        
-    //------------------------------------- Get the user data - Start -------------------------------------------------------------------------------------
+
+        //------------------------------------- Get the user data - Start -------------------------------------------------------------------------------------
         
         //Get from the user the name and assign to the propiety _name
             Console.Write("Enter your full name: ");
@@ -196,6 +198,5 @@ class Program
 
         
         
-    
     }
 }
